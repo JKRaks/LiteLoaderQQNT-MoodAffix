@@ -4,7 +4,7 @@
 LiteLoaderQQNT 本体：[LiteLoaderQQNT](https://github.com/mo-jinran/LiteLoaderQQNT)
 
 > [!CAUTION]\
-> **此插件可能会和其他类似的hook插件冲突**\
+> **此插件可能会和其他类似的hook插件冲突**
 
 ## 使用方法
 
