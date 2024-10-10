@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "electron": "^30.0.6",
+    "electron-vite": "^2.2.0",
+    "eslint": "^9.2.0",
+    "vite": "^5.2.11",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "liteloader_mainfest": {
+    "manifest_version": 4,
+    "type": "extension",
+    "name": "Mood Affix",
+    "slug": "mood_affix",
+    "description": "用于调整你的语气词缀",
+    "version": "0.1.0",
+    "authors": [
+      {
+        "name": "JKRaks",
+        "link": "https://github.com/JKRaks"
+      }
+    ],
+    "platform": [
+      "win32"
+    ],
+    "injects": {
+      "renderer": "./src/renderer.js",
+      "main": "./src/main.js",
+      "preload": "./src/preload.js"
+    }
+  }
+}

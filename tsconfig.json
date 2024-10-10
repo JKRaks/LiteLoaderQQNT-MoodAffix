@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "types": [
+            "electron-vite/node"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*",
+            ]
+        },
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    },
+    "include": [
+        "src/*",
+        "electron.vite.config.ts",
+        "src/common/logger.ts"
+    ]
+}
